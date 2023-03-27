@@ -3,6 +3,8 @@
 
 php ile basit cronjob oluşturma
 
+![](https://i.imgur.com/qe8d3c6l.png)
+
 ### Gereksinimler
 - PHP 5.6.x ve üzeri !
 - exec,shell_exec allow olmalıdır!
