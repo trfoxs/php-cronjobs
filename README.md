@@ -58,14 +58,18 @@ $cron->remove();
 ----
 ### ERROR | $this->error();
 
-Error komutları;
-	- 0 => true, 
-	- 1 => true, 
-	- 2 => 'Missing keyword or command', 
-	- 126=>'Permission problem or command is not an executable', 
-	- 127=>'Command not found',
+Hata raporları
+
+| Status        | description   |
+--- | ---
+| 0      	| success 	|
+| 1      	| success      	|
+| 2      	| Missing keyword or command |
+| 126      	| Permission problem or command is not an executable |
+| 127      	| Command not found |
+
 ```php
 if ($this->error()) {
-	echo $this->error();
+   echo $this->error();
 }
 ```
